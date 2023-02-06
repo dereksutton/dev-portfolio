@@ -1,2 +1,27 @@
-# dev-portfolio
-My developer portfolio page.
+# My Developer Portfolio
+
+## Project Description
+The goal of this project is to build a clean, well-styled web page to showcase my web app projects, connect with other developers, and tell people a little bit about me.
+
+## Contents
+1. [Deployed Page](#deployed-page)
+2. [Actions Taken](#actions-taken)
+3. [Contributions](#contributions)
+
+## Deployed Page
+
+![Deployed Page Screenshot]()
+
+[Deployed GitHub Page](https://dereksutton.github.io/dev-portfolio/)
+
+## Work Log
+* Created HTML & CSS files from scratch.
+* Added 'About Me' paragraph.
+* Added 'Projects' images.
+* Set CSS variables in the root selector for use throughout the page.
+* Imported Google fonts for use throughout the page.
+* Used CSS Flexbox and media queries to create a responsive web page.
+* This project will continue to be a work in progress.
+
+## Contributions
+* This web page developed by [Derek Sutton](https://github.com/dereksutton)
