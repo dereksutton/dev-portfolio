@@ -96,94 +96,45 @@ nav a {
     background-position: center;
 }
 
-/* main content styles here */
+/* main content styles start here */
 
-.main-container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
-  .content-section {
+main {
     width: 100%;
-    margin: 20px;
-  }
-
-  .content-section#projects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-  .project-1 {
-    width: 66.66%;
-    height: auto;
     display: flex;
     flex-direction: row;
-  }
-
-  .header-project1 {
-    width: 7.0em;
-    height: 2.75em;
-    background-color: var(--primary-color);
-    color: var(--accent-color);
-    align-items: center;
-    text-align: center;
-    display: block;
-    position: relative;
-    top: 20%;
-    left: 10%;
-    margin: 0;
-    padding-bottom: 0;
-    
-  }
-  
-  .projects-2to5 {
-    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 100%;
-  }
-
-  .project-2,
-  .project-3,
-  .project-4,
-  .project-5 {
-    width: calc(25% - 10px);
-    margin-bottom: 20px;
-    margin-top: 15px;
-    padding: 0;
   }
   
-  .project-img,
-  .project-img1 {
+.content-section {
     width: 100%;
+    height: auto;
+    margin: 0;
   }
 
-  .projects-header {
+  section h2 {
     font-family: 'Yellowtail', cursive;
-    font-size: 36px;
+    font-size: 32px;
     color: var(--primary-color);
     display: block;
     position: relative;
     margin: 0;
-    padding: 5% 5%;
+    padding: 1% 3%;
     letter-spacing: 1px;
   }
 
-/* 'about' styles here */
-
-.about-header {
-    font-family: 'Yellowtail', cursive;
-    font-size: 36px;
-    color: var(--primary-color);
-    margin: 0;
-    padding: 5% 5%;
-    letter-spacing: 1px;
+section a h3 {
     display: block;
-    position: relative; 
+    position: relative;
+    text-align: center;
+    top: 50%;
+    width: 6.5em;
+    padding: 1%;
+    margin: 0;
+    background-color: var(--accent-color);
 }
+
+/* 'about' section styles here */
 
 #about-me {
     display: flex;
@@ -192,10 +143,65 @@ nav a {
 }
 
 #about-me p {
-    padding-left: 5%;
+    padding: 3% 6%;
     margin: 0;
     border-left: 5px; solid var(--primary-color);
     width: 60%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.15em;
+    font-weight: 600;
+}
+
+/* 'projects' section styles here */
+
+#projects {
+    display: flex;
+    flex-direction: column;
+  }
+
+.project-1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+.project-2,
+.project-3,
+.project-4,
+.project-5 {
+    width: 32%;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    padding: 0;
+  }
+  
+.projects-2n3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+.projects-4n5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  
+.project-img,
+.project-img1 {
+    width: 100%;
+  }
+
+.project-link {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-family: 'Yellowtail', cursive;
+    font-size: 24px;
 }
 
 /* footer styles here */
@@ -204,10 +210,11 @@ footer {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    margin: 0;
+    margin: 30px 0 0 0;
     padding-top: 2%;
+    padding-bottom: 1.5em;
     width: 100%;
-    height: 20vh;
+    height: 25vh;
     background-color: var(--accent-color);
 }
 
