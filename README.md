@@ -1,7 +1,7 @@
 # My Developer Portfolio
 
 ## Project Description
-The goal of this project is to build a clean, well-styled web page to showcase my web app projects, connect with other developers, and tell people a little bit about me.
+The goal of this project was to build a clean, well-styled web page to showcase my personal web app projects, connect with other developers, and tell people a little bit about me. The page features an 'About Me', a 'Projects' section, and a footer with various links to connect with me online. I've also set media queries to make the design responsive to various viewport sizes.
 
 ## Contents
 1. [Deployed Page](#deployed-page)
@@ -10,7 +10,7 @@ The goal of this project is to build a clean, well-styled web page to showcase m
 
 ## Deployed Page
 
-![Deployed Page Screenshot]()
+![Deployed Page Screenshot](./Assets/dev-portfolio-screenshot.png)
 
 [Deployed GitHub Page](https://dereksutton.github.io/dev-portfolio/)
 
