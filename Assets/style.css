@@ -76,7 +76,7 @@ nav ul {
 
 nav li {
     font-family: 'Yellowtail', cursive;
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 600;
 }
 
@@ -244,6 +244,16 @@ footer a {
 }
 
 /* Media Queries */
+
+@media screen and (max-width: 1132px) {
+    nav li {
+        font-size: 24px;
+    }
+
+    nav a {
+        padding: 0 25px;
+    }
+}
 
 @media screen and (max-width: 768px) {
     header {
