@@ -31,49 +31,71 @@
     <main>
         <!-- 'About' section -->
         <section class="content-section" id="about-me">
-            <h2>About Me</h2>
-            <p class="about-p">I'm a creatively-driven professional, with a penchant for deep diving to solve business-related problems, and an obsession for efficiency and automation. As a long-time business owner and consultant, 
-                I've a developed deep understanding and appreciation for quality and efficiency when it comes to technical solutions. For the better part of the last decade,
-                I've been working as a freelance marketing consultant - helping a broad clientele to achieve their brand's visual design and merchandising goals; with services ranging from social & print design, to merch & web development. I've had the privilege and honor of working with some of the top brands in the world. 
-                <br>
-                <br>
-                My interest in software development began when I set out to solve a bottleneck for my own business. What started as a personal business need, went on to spark an insatiable drive to learn more and hone my craft as a developer. 
-                This ultimately led me to where I am today - currently enrolled in Georgia Tech's Full Stack Coding Bootcamp. My goal is to leverage the skills acquired from the program to help companies solve the problems they're currently faced with - increasing their impact in the market, and maximizing their potential.
-                </p>
+            <h2 id="about-title">About Me</h2>
+                <div class="section-content">
+                    <p class="about-p">I'm a creatively-driven professional, with a penchant for deep diving to solve business-related problems, and an obsession for efficiency and automation. As a long-time business owner and consultant, 
+                    I've a developed deep understanding and appreciation for quality and efficiency when it comes to technical solutions. For the better part of the last decade,
+                    I've been working as a freelance marketing consultant - helping a broad clientele to achieve their brand's visual design and merchandising goals; with services ranging from social & print design, to merch & web development. I've had the privilege and honor of working with some of the top brands in the world. 
+                    <br>
+                    <br>
+                    My interest in software development began when I set out to solve a bottleneck for my own business. What started as a personal business need, went on to spark an insatiable drive to learn more and hone my craft as a developer. 
+                    This ultimately led me to where I am today - currently enrolled in Georgia Tech's Full Stack Coding Bootcamp. My goal is to leverage the skills acquired from the program to help companies solve the problems they're currently faced with - increasing their impact in the market, and maximizing their potential.
+                    </p>
+                </div>
         </section>
         <!-- 'Projects' section -->
-        <section class="content-section" id="projects">
-            <h2>Projects</h2>
-            <article class="project">
-                <a class="project-link" href="https://protected-mesa-32753.herokuapp.com/">
-                    <h3>FeastFindr</h3>
-                    <img class="project-img" src="./Assets/FeastFindr-Screen.png" alt="Project 1 placeholder text">
-                </a>
-            </article>
-            <article class="project">
-                <a class="project-link" href="https://victoriamcn.github.io/NightOwl/">
-                    <h3>NightOwl</h3>
-                    <img class="project-img" src="./Assets/project-img-2.png" alt="Project 2 placeholder text">
-                </a>
-            </article>
-            <article class="project">
-                <a class="project-link" href="https://dereksutton.github.io/horiseon-refactor/">
-                    <h3>Horiseon Refactor</h3>
-                    <img class="project-img" src="./Assets/project-img-3.png" alt="Project 3 placeholder text">
-                </a>
-            </article>
-            <article class="project">
-                <a class="project-link" href="#">
-                    <h3>Project Four</h3>
-                    <img class="project-img" src="./Assets/project-img-4.png" alt="Project 4 placeholder text">
-                </a>
-            </article>
-            <article class="project">
-                <a class="project-link" href="#">
-                    <h3>Project Five</h3>
-                    <img class="project-img" src="./Assets/project-img-5.png" alt="Project 5 placeholder text">
-                </a>
-            </article>
+        <section id="projects" class="content-section">
+                <h2 id="projects-title">Projects</h2>
+                <div class="section-content">
+                    <div class="project-wrapper">
+                        <article class="project" id="project-1">
+                            <a class="project-link" href="https://protected-mesa-32753.herokuapp.com/">
+                                <img class="project-img" src="./Assets/FeastFindr-Screen.png" alt="Project 1 placeholder text">
+                                <div class="overlay">
+                                    <h3>FeastFindr</h3>
+                                </div>
+                            </a>
+                        </article>
+                        <div class="projects-secondary">
+                            <div class="project-middle">
+                                <article class="project">
+                                    <a class="project-link" href="https://victoriamcn.github.io/NightOwl/">
+                                        <img class="project-img" src="./Assets/project-img-2.png" alt="Project 2 placeholder text">
+                                        <div class="overlay">
+                                            <h3>NightOwl</h3>
+                                        </div>
+                                    </a>
+                                </article>
+                                <article class="project">
+                                    <a class="project-link" href="https://dereksutton.github.io/horiseon-refactor/">
+                                        <img class="project-img" src="./Assets/project-img-3.png" alt="Project 3 placeholder text">
+                                        <div class="overlay">
+                                            <h3>Horiseon Refactor</h3>
+                                        </div>
+                                    </a>
+                                </article>
+                            </div>
+                            <div class="project-last">
+                                <article class="project">
+                                    <a class="project-link" href="#">
+                                        <img class="project-img" src="./Assets/project-img-4.png" alt="Project 4 placeholder text">
+                                        <div class="overlay">
+                                            <h3>Project Four</h3>
+                                        </div>
+                                    </a>
+                                </article>
+                                <article class="project">
+                                    <a class="project-link" href="#">
+                                        <img class="project-img" src="./Assets/project-img-5.png" alt="Project 5 placeholder text">
+                                        <div class="overlay">
+                                            <h3>Project Five</h3>
+                                        </div>
+                                    </a>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </section>
     </main>
 
